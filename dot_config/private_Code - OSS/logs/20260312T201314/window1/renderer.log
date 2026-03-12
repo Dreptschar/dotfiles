@@ -1,0 +1,13 @@
+2026-03-12 20:13:14.615 [info] Started local extension host with pid 62867.
+2026-03-12 20:13:17.171 [info] [perf] Render performance baseline is 14ms
+2026-03-12 20:15:03.776 [error] [chat setup] signIn: error Error: Cancelled
+2026-03-12 20:15:06.254 [error] The extension 'GitHub.copilot-chat' cannot be installed because it was not found.: NotFound: The extension 'GitHub.copilot-chat' cannot be installed because it was not found.
+    at Q8.install (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3495:44425)
+    at async JFe.doInstall (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3391:12105)
+2026-03-12 20:15:43.954 [error] [chat setup] install: error undefined
+2026-03-12 20:15:51.098 [error] [chat setup] install: error NotFound: The extension 'GitHub.copilot-chat' cannot be installed because it was not found.
+2026-03-12 20:16:32.135 [error] [chat setup] signIn: error Error: Cancelled
+2026-03-12 20:16:33.780 [error] The extension 'GitHub.copilot-chat' cannot be installed because it was not found.: NotFound: The extension 'GitHub.copilot-chat' cannot be installed because it was not found.
+    at Q8.install (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3495:44425)
+    at async JFe.doInstall (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3391:12105)
+2026-03-12 20:16:57.677 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: extensions.requestTimeout, github.copilot.chat.agent.terminal.allowList, github.copilot.chat.agent.terminal.denyList, terminal.integrated.developer.devMode, terminal.integrated.developer.ptyHost.latency, terminal.integrated.developer.ptyHost.startupDelay, terminal.integrated.enableKittyKeyboardProtocol, terminal.integrated.enableWin32InputMode, chat.autopilot.enabled, chat.autoReply, chat.contextUsage.enabled, chat.customizationsMenu.enabled, chat.experimentalSessionsWindowOverride, chat.exploreAgent.defaultModel, chat.growthNotification.enabled, chat.pluginLocations, chat.plugins.enabled, chat.plugins.marketplaces, chat.statusWidget.anonymous, chat.upvoteAnimation, chat.useClaudeHooks, chat.useCustomAgentHooks, accessibility.signals.chatResponseReceived, accessibility.signals.chatUserActionRequired, github.copilot.advanced
