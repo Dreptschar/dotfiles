@@ -221,6 +221,13 @@
                     "useDistroLogo": false
                 },
                 {
+                    "defaultSettings": {
+                        "enableTodoIntegration": false,
+                        "notecardsEnabled": true,
+                        "pincardsEnabled": true,
+                        "position": "Bottom",
+                        "showCloseButton": false
+                    },
                     "id": "plugin:clipper"
                 }
             ]

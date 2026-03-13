@@ -4,19 +4,19 @@
     "telemetry.devDeviceId": "1efc694c-eb3e-4cd1-b64a-bf2cf2a544df",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
-        "emptyWindows": [
+        "folders": [
             {
-                "backupFolder": "1773342780034"
+                "folderUri": "file:///home/dreptschar/.config/niri"
             }
-        ]
+        ],
+        "emptyWindows": []
     },
     "windowControlHeight": 35,
     "profileAssociations": {
-        "workspaces": {},
-        "emptyWindows": {
-            "1773342780034": "__default__profile__"
-        }
+        "workspaces": {
+            "file:///home/dreptschar/.config/niri": "__default__profile__"
+        },
+        "emptyWindows": {}
     },
     "theme": "vs-dark",
     "themeBackground": "#1f1f1f",
@@ -43,22 +43,35 @@
             "titleBarHeight": 35,
             "activityBarWidth": 48,
             "sideBarWidth": 300,
-            "auxiliaryBarWidth": 0,
+            "auxiliaryBarWidth": 300,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/dreptschar/.config/Code - OSS/Backups/1773342780034",
+            "folder": "file:///home/dreptschar/.config/niri",
+            "backupPath": "/home/dreptschar/.config/Code - OSS/Backups/978e5a86ce7e340f8b840fe635f7d9de",
             "uiState": {
                 "mode": 1,
                 "x": 0,
                 "y": 0,
-                "width": 1256,
-                "height": 1378
+                "width": 2528,
+                "height": 1364
             }
         },
         "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "e2280db82b48b5a006ca8e225711bc5e": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
     }
 }
