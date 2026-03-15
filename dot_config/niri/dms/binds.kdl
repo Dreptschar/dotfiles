@@ -1,6 +1,9 @@
 binds {
+    Super+N hotkey-overlay-title="Notepad: Toggle" { spawn "dms" "ipc" "call" "notepad" "toggle"; }
     Super+Shift+C hotkey-overlay-title="Clipboard: Toggle" { spawn "dms" "ipc" "call" "clipboard" "toggle"; }
     Super+Shift+Q hotkey-overlay-title="Power Menu: Open" { spawn "dms" "ipc" "call" "powermenu" "open"; }
     Super+space hotkey-overlay-title="App Launcher: Toggle" { spawn "dms" "ipc" "call" "spotlight" "toggle"; }
     Mod+B hotkey-overlay-title="Open Browser: chrome" { spawn "google-chrome-stable"; }
+    Super+A { spawn "gtk-launch" "chatgpt"; }
+    Super+M { spawn "gtk-launch" "chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default"; }
 }

@@ -20,7 +20,7 @@
   "controlCenterTileColorMode": "primary",
   "buttonColorMode": "primary",
   "cornerRadius": 12,
-  "niriLayoutGapsOverride": -1,
+  "niriLayoutGapsOverride": 8,
   "niriLayoutRadiusOverride": -1,
   "niriLayoutBorderSize": -1,
   "hyprlandLayoutGapsOverride": -1,
@@ -235,7 +235,7 @@
       "cursorHideTimeout": 0
     }
   },
-  "launcherLogoMode": "compositor",
+  "launcherLogoMode": "apps",
   "launcherLogoCustomPath": "",
   "launcherLogoColorOverride": "",
   "launcherLogoColorInvertOnMode": false,
@@ -396,10 +396,17 @@
   "customPowerActionPowerOff": "",
   "updaterHideWidget": true,
   "updaterUseCustomCommand": true,
-  "updaterCustomCommand": "sudo pacman -Sys",
+  "updaterCustomCommand": "cachy-update",
   "updaterTerminalAdditionalParams": "",
   "displayNameMode": "system",
-  "screenPreferences": {},
+  "screenPreferences": {
+    "notepad": [
+      {
+        "name": "DP-3",
+        "model": "LC27G7xT"
+      }
+    ]
+  },
   "showOnLastDisplay": {},
   "niriOutputSettings": {},
   "hyprlandOutputSettings": {},
@@ -415,9 +422,16 @@
       "enabled": true,
       "position": 0,
       "screenPreferences": [
-        "all"
+        {
+          "name": "DP-2",
+          "model": "PHL 325E1"
+        },
+        {
+          "name": "DP-3",
+          "model": "LC27G7xT"
+        }
       ],
-      "showOnLastDisplay": true,
+      "showOnLastDisplay": false,
       "leftWidgets": [
         {
           "id": "spacer",
@@ -429,11 +443,6 @@
           "enabled": true
         },
         {
-          "id": "focusedWindow",
-          "enabled": true,
-          "focusedWindowCompactMode": true
-        },
-        {
           "id": "runningApps",
           "enabled": true,
           "runningAppsCompactMode": true,
@@ -443,15 +452,25 @@
         }
       ],
       "centerWidgets": [
-        "music",
+        {
+          "id": "music",
+          "enabled": true
+        },
+        {
+          "id": "weather",
+          "enabled": true
+        },
         {
           "id": "clock",
           "enabled": true,
           "clockCompactMode": false
         },
-        "weather",
         {
           "id": "systemUpdate",
+          "enabled": true
+        },
+        {
+          "id": "niriScreenshot",
           "enabled": true
         }
       ],
@@ -511,7 +530,12 @@
       "openOnOverview": false,
       "visible": true,
       "popupGapsAuto": true,
-      "popupGapsManual": 4
+      "popupGapsManual": 4,
+      "maximizeWidgetIcons": false,
+      "shadowIntensity": 0,
+      "widgetOutlineEnabled": false,
+      "clickThrough": false,
+      "showOnWindowsOpen": false
     }
   ],
   "desktopClockEnabled": false,
